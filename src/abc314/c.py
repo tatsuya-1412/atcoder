@@ -1,14 +1,3 @@
-# import io
-# import sys
-
-# # input here
-# _INPUT = """\
-# 8 3
-# apzbqrcs
-# 1 2 3 1 2 2 1 2
-# """
-# sys.stdin = io.StringIO(_INPUT)
-
 n, m = map(int, input().split())
 s = input()
 c = list(map(int, input().split()))
