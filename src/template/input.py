@@ -8,3 +8,6 @@ _INPUT = """\
 sys.stdin = io.StringIO(_INPUT)
 
 # your code here
+import sys
+
+input = sys.stdin.readline
